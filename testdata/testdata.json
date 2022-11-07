@@ -1,0 +1,29 @@
+{
+  "search_terms": [
+    "petrol+fire",
+    "tills",
+    "licensing",
+    "health+and+safety",
+    "theft%2C+accidents"
+  ],
+
+  "category_paths": [
+    "/categories/sales-payment-and-cash",
+    "/categories/store-departments",
+    "/categories/petrol-stations",
+    "/categories/community-and-membership",
+    "/categories/risk-threats-and-incidents"
+  ],
+
+  "empty_search_terms": [
+    "lLCTiFCJiE",
+    "JlsfxAfJOh",
+    "wawymXDRzl",
+    "pUBdbCAQxv",
+    "vLoHCfrlIi"
+  ],
+
+  "error_paths": [
+    "/categories/sales-payment-and-money"
+  ]
+}

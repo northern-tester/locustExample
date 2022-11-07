@@ -1,5 +1,5 @@
 ======================
-How Do I Load Tests
+Locust Example Repo
 ======================
 
 Installing 
@@ -12,7 +12,7 @@ pip3 install -r requirements.txt
 Introduction
 ============
 
-Initial load tests using LocustIO for the How Do I site
+Initial load tests using LocustIO
 
 Documentation for Locust can be found here:
 

@@ -7,13 +7,13 @@ with open('LICENSE') as f:
     license = f.read()
 
 setup(
-    name='how-do-i-load-locustfiles',
+    name='example-locustfiles',
     version='0.0.1',
-    description='Load locustfiles for the how-do-i website',
+    description='Load locustfiles for training',
     long_description=readme,
     author='Ash Winter',
-    author_email='awinter@equalexperts.com',
-    url='http://gitlab.azure.digitalplatform.coop.co.uk/awinter/how-do-i-load-locustfiles',
+    author_email='ash@diagramindustries.com',
+    url='https://docs.locust.io/en/stable/index.html',
     license=license,
     packages=find_packages
 )

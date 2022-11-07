@@ -7,7 +7,7 @@ import common.articlefinder as article_finder
 from locust import HttpLocust, TaskSet, task
 
 
-class HowDoITasks(TaskSet):
+class ExampleTasks(TaskSet):
 
     data = test_data.retrieve_data()
     search_terms = test_data.extract_search_terms(data)
@@ -40,7 +40,7 @@ class HowDoITasks(TaskSet):
 
 
 class WebsiteUser(HttpLocust):
-    task_set = HowDoITasks
+    task_set = ExampleTasks
     # If you don't specify a min and max wait, it will default to a second, keep the same for steady spawn rate
     min_wait = 5000
     max_wait = 5000

@@ -6,7 +6,7 @@ sys.path.append(os.getcwd())
 
 
 class ConferenceCreateUser(HttpUser):
-    wait_time = constant(5)
+    wait_time = constant(5.0)
 
     @task
     def create_user(self):

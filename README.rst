@@ -28,14 +28,9 @@ You need to control the following:
 Number of Users (-u)
 Hatch Rate (-r)
 Duration of test expressed
-Max and Min Wait (set this to a uniform value as in 1000ms for both)
+Wait set as a constant in the test example below
 
-locust -f example.py -u 50 -r 1 -t 10mins --host http://localhost:9000
-
-    min_wait = 5000
-    max_wait = 5000
-
-50 users spawned 1 at a time every 5 seconds with a cap of 500 requests
+locust -f locustfiles/conferencecreateuser.py --csv=../results -u 1 -r 1 -t 10s --host http://localhost:9000
 
 After running this in terminal, open http://localhost:8089/# and you should be able to run the test and see the output
 
